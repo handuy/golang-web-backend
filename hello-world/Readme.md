@@ -1,12 +1,4 @@
-# Tạo một web server tối giản chạy ở localhost:8080. Sử dụng Golang web framework Gin
-
-## Tải Go-Gin về máy:
-
-```go
-go get -u github.com/gin-gonic/gin
-```
-
-## Chaỵ lệnh:
+# Chaỵ lệnh
 
 ```go
 go run main.go
