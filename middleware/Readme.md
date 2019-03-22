@@ -34,4 +34,4 @@ go run main.go
 
 ## Các bạn có thể không sử dụng middleware logging bằng cách gọi trực tiếp đến 2 hàm xử lý chính foo và bar, sau đó so sánh kết quả
 
-![No middleware](no_middleware.png?raw=true "No middleware")
+![No middleware](no_middlware.png?raw=true "No middleware")
