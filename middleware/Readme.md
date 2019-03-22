@@ -4,6 +4,8 @@
 go run main.go
 ```
 
+## Lưu ý: Ví dụ này không sử dụng Go-gin web framework, chỉ sử dụng package net/http có sẵn trong Go.
+
 ## Web server khới động tại địa chỉ: [http://localhost:8080/](http://localhost:8080/ "http://localhost:8080/"). Màn hình terminal hiển thị 2 dòng chữ: Chạy hàm logging
 
 ![Màn hình terminal](gorun.png?raw=true "Màn hình terminal")
