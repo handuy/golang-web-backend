@@ -22,6 +22,10 @@ go run main.go
 
 ### Trước tiên, định nghĩa một kiểu dữ liệu là Middleware: Là một hàm có tham số đầu vào là `http.HandlerFunc` và trả về một `http.HandlerFunc` khác
 
+```go
+type Middleware func(http.HandlerFunc) http.HandlerFunc
+```
+
 ### Hàm LogPath không nhận tham số đầu vào và trả về dữ liệu kiểu Middleware
 
 ```go
